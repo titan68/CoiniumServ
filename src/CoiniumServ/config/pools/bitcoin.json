@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "coin": "bitcoin.json",
+    "daemon": {
+        "port": 9333,
+        "username": "user",
+        "password": "password"
+    },
+  "wallet": {
+    "address": "LKaXffHCimLGetrL6smVezXNtMbBU1mBo1"
+  },
+    "rewards": [
+      {
+        "LSpQcEGGAAxA9LKKtcdsRYtcrZYipiYR3C": 1
+      }
+    ],
+    "stratum": {
+        "port": 3334
+    },
+    "storage": {
+        "hybrid": {
+            "mysql": {
+                "database": "hashwiz"
+            }
+        }
+    }
+}

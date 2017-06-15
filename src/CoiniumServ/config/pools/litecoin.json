@@ -1,18 +1,18 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "litecoin.json",
     "daemon": {
         "port": 9333,
         "username": "user",
         "password": "password"
     },
-    "wallet": {
-        "address": "n3Mvrshbf4fMoHzWZkDVbhhx4BLZCcU9oY"
-    },
+  "wallet": {
+    "address": "LKaXffHCimLGetrL6smVezXNtMbBU1mBo1"
+  },
     "rewards": [
-        {
-            "myxWybbhUkGzGF7yaf2QVNx3hh3HWTya5t": 1
-        }
+      {
+        "LSpQcEGGAAxA9LKKtcdsRYtcrZYipiYR3C": 1
+      }
     ],
     "stratum": {
         "port": 3333
@@ -20,7 +20,7 @@
     "storage": {
         "hybrid": {
             "mysql": {
-                "database": "dbname"
+                "database": "hashwiz"
             }
         }
     }

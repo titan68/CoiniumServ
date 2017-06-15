@@ -1,30 +1,30 @@
 {
     "stack": {
-        "name": "CoiniumServ.com",
+        "name": "HashWiz.com",
         "nodes": [
-            {
-                "location": "eu",
-                "address": "127.0.0.1",
-                "default": true
-            }
+          {
+            "location": "eu",
+            "address": "192.168.250.61",
+            "default": true
+          }
         ]
     },
     "statistics": {
         "updateInterval": 60,
         "hashrateWindow": 300
     },
-    "website": {
-        "enabled": true,
-        "bind": "",
-        "port": 80,
-        "template": "default",
-        "feed": "",
-        "backend": {
-            "metrics": {
-                "enabled": false
-            }
-        }
-    },
+  "website": {
+    "enabled": true,
+    "bind": "192.168.250.61",
+    "port": 80,
+    "template": "default",
+    "feed": "",
+    "backend": {
+      "metrics": {
+        "enabled": false
+      }
+    }
+  },
     "logging": {
         "root": "logs",
         "targets": [
